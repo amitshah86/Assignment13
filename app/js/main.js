@@ -12,7 +12,7 @@
   });
 
   // Templates
-  var textData = function textData(obj) {
+  var textInput = function textInput(obj) {
     var template = '\n  <div class="text-input">\n  <input type="' + type + '" placeholder="' + obj.label + '" id="' + id + '">\n  <i class="fa ' + obj.icon + '" ></i>\n  </div>\n  ';
     return template;
   };

@@ -11,7 +11,7 @@ promise.then( function (response) {
 });
 
 // Templates
-var textData = function (obj) {
+var textInput = function (obj) {
   var template = `
   <div class="text-input">
   <input type="${ type }" placeholder="${ obj.label }" id="${ id }">
@@ -19,6 +19,10 @@ var textData = function (obj) {
   </div>
   `;
   return template;
+
+
+
+
 
 }
 
