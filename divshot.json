@@ -1,0 +1,6 @@
+{
+  "name": "tiy-amitashshah-week4-app",
+  "root": "app",
+  "clean_urls": true,
+  "error_page": "error.html"
+}
